@@ -59,7 +59,7 @@ public class UVLightmeter extends JavaPlugin implements Listener {
      */
     @Override
     public void onDisable() {
-        // remove recipes on disable
+        // to-do: remove recipes on disable
     }
     
     /**
