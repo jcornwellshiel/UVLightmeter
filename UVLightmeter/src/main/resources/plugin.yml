@@ -5,9 +5,9 @@ author: jcornwellshiel
 website: uv-node.net
 
 commands:
-  uvlightmeter:
+  lightmeter:
     description: UVLightmeter information and help.
-    usage: /uvlightmeter
+    usage: /lightmeter
 
 permissions:
   uvlightmeter.*:
