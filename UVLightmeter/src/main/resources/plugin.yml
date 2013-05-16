@@ -1,0 +1,26 @@
+name: UVLightmeter
+main: net.uvnode.uvlightmeter.UVLightmeter
+version: 1.0-snapshot
+author: jcornwellshiel
+website: uv-node.net
+
+commands:
+  uvlightmeter:
+    description: UVLightmeter information and help.
+    usage: /uvlightmeter
+
+permissions:
+  uvlightmeter.*:
+    description: Gives access to all UVLightmeter commands
+    children:
+      uvlightmeter.admin
+      uvlightmeter.craft
+      uvlightmeter.use
+  uvlightmeter.admin:
+    description: Allows players to administer UVLightmeter settings
+  uvlightmeter.craft:
+    description: Allows players to craft light meters
+  uvlightmeter.user:
+    description: Allows players to use light meters
+     
+      
